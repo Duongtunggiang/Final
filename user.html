@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hồ sơ Quản trị viên</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="jquery_new.js"></script>
+  <link rel="stylesheet" href="admin_haui.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="menu menu-head">
+            <ul class="nav justify-content-end navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+                <li class="nav-item">
+                    <a class="nav-link" href="user.html">Admin
+                        <i class="fa fa-user na" title="Cá nhân"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" style="border-right: 1px solid #c3c3c3; padding-right: 20px;" href="admin_haui.html" >
+                <img class="logo-it" src="Logo Haui.png" width="50px" height="50px">
+                <i  title="Logo"><b>ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI</b> - Quản trị viên</i></a>
+            <form class="form-inline" style="margin-right: 20px;" >
+                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Tìm kiếm">
+                <button class="btn btn-secondary" type="submit">Tìm kiếm</button>
+            </form>
+            <!-- <a class="oders nav-chose" href="#" style="border-right: 1px solid #c3c3c3;">Đơn hàng</a> -->
+            <a class="nav-chose contact" href="#">Liên hệ</a>
+        </nav>
+    </div>
+  <div class="container my-5 mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Ảnh đại diện quản trị viên">
+          <div class="card-body">
+            <h5 class="card-title">Nguyễn Văn A</h5>
+            <p class="card-text">Quản trị viên</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Thông tin cá nhân</h5>
+            <div class="row">
+              <div class="col-md-6">
+                <p><strong>Tên:</strong> Nguyễn Văn A</p>
+                <p><strong>Email:</strong> nguyenvana@example.com</p>
+                <p><strong>Điện thoại:</strong> 123-456-7890</p>
+              </div>
+              <div class="col-md-6">
+                <p><strong>Vai trò:</strong> Quản trị viên</p>
+                <p><strong>Đăng nhập lần cuối:</strong> 2023-06-09 15:30:00</p>
+                <p><strong>Ngày tham gia:</strong> 2021-01-01</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mt-4">
+          <div class="card-body">
+            <h5 class="card-title">Hoạt động</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                  <strong>Đã tạo 5 người dùng mới</strong>
+                  <p class="text-muted mb-0">2023-06-07 10:15:00</p>
+                </div>
+                <span class="badge bg-primary rounded-pill">5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                  <strong>Đã phê duyệt 10 yêu cầu đăng ký</strong>
+                  <p class="text-muted mb-0">2023-06-05 14:20:00</p>
+                </div>
+                <span class="badge bg-primary rounded-pill">10</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                  <strong>Đã cập nhật cài đặt hệ thống</strong>
+                  <p class="text-muted mb-0">2023-06-03 09:45:00</p>
+                </div>
+                <span class="badge bg-primary rounded-pill">1</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-footer d-flex justify-content-end">
+    <a href="update_admin.html" class="btn btn-primary mr-2">Cập nhật</a>
+    <a href="admin_haui.html" class="btn btn-secondary">Thoát</a>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
